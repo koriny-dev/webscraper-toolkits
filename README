@@ -1,0 +1,9 @@
+## activate virtualenv with python3, before started
+    ## python3 -m venv env 
+    ## source env/bin/activate
+
+## ImportError: C extension: No module named 'parsing' not built
+    ## try to re-install pandas by pip install --upgrade --force-reinstall pandas
+
+## Python Selenium 'WebDriver' object has no attribute firefox error
+    ## pip install -U selenium
